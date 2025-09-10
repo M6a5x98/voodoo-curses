@@ -7,12 +7,18 @@
 	"authors": [
 		"M6a5x98"
 	],
-	"contact": {},
+	"contact": {
+		"sources": "https://github.com/M6a5x98/voodoo-curses",
+		"homepage": "https://modrinth.com/mod/voodoo-curses"
+	},
 	"license": "GPL-3.0",
 	"icon": "assets/voodoo-curses/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
+			"m6a5x98.voodoocurses.VoodooCurses"
+		],
+		"client": [
 			"m6a5x98.voodoocurses.VoodooCurses"
 		],
 		"fabric-datagen": [
