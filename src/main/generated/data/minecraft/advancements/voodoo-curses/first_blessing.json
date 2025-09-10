@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:voodoo-curses/path_of_good",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.voodoo-curses.first-blessing.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "voodoo-curses:purified_lapis_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.voodoo-curses.first-blessing.name"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

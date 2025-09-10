@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:voodoo-curses/path_of_bad",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.voodoo-curses.ultimate-curse.description",
+      "with": [
+        {
+          "translate": "curse.voodoo-curses.8"
+        }
+      ]
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "voodoo-curses:compacted_netherite_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.voodoo-curses.ultimate-curse.name"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

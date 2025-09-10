@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:voodoo-curses/path_of_good",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.voodoo-curses.ultimate-blessing.description",
+      "with": [
+        {
+          "translate": "curse.voodoo-curses.4"
+        }
+      ]
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "voodoo-curses:compacted_netherite_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.voodoo-curses.ultimate-blessing.name"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "voodoo-curses",
+	"version": "${version}",
+	"name": "Voodoo Curses",
+	"description": "This mod adds voodoo dolls allowing players to curse or bless other players",
+	"authors": [
+		"M6a5x98"
+	],
+	"contact": {},
+	"license": "GPL-3.0",
+	"icon": "assets/voodoo-curses/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"m6a5x98.voodoocurses.VoodooCurses"
+		],
+		"fabric-datagen": [
+			"m6a5x98.voodoocurses.VoodooCursesDataGenerator"
+		]
+	},
+	"mixins": [
+		"voodoo-curses.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}

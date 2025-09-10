@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "minecraft:soul_fire_base_blocks"
+  },
+  "base": {
+    "item": "minecraft:redstone_block"
+  },
+  "result": {
+    "item": "voodoo-curses:profaned_redstone_block"
+  },
+  "template": {
+    "item": "voodoo-curses:voodoo_ritual_template"
+  }
+}

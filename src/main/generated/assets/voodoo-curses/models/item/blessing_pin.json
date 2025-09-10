@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "voodoo-curses:item/blessing_pin"
+  }
+}

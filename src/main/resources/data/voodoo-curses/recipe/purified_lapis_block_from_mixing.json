@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "count": 4,
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "voodoo-curses:purified_lapis_block"
+    }
+  ]
+}

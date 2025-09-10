@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    }
+  },
+  "pattern": [
+    "DHD",
+    "DHD",
+    "DDD"
+  ],
+  "result": {
+    "item": "voodoo-curses:voodoo_ritual_template"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:voodoo-curses/root",
+  "criteria": {
+    "got_clover": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "voodoo-curses:clover"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.voodoo-curses.lucky-flower.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "voodoo-curses:clover"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.voodoo-curses.lucky-flower.name"
+    }
+  },
+  "requirements": [
+    [
+      "got_clover"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

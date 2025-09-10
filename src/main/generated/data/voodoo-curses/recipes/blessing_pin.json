@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "P": {
+      "item": "voodoo-curses:purified_lapis_block"
+    }
+  },
+  "pattern": [
+    "P",
+    "C",
+    "N"
+  ],
+  "result": {
+    "item": "voodoo-curses:blessing_pin"
+  },
+  "show_notification": true
+}

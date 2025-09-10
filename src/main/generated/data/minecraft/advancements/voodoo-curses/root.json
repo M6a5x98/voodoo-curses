@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "got_doll": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "voodoo-curses:voodoo_doll"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "voodoo-curses:textures/block/profaned_redstone_block.png",
+    "description": {
+      "translate": "advancements.voodoo-curses.voodoo-doll.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "voodoo-curses:voodoo_doll"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.voodoo-curses.voodoo-doll.name"
+    }
+  },
+  "requirements": [
+    [
+      "got_doll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

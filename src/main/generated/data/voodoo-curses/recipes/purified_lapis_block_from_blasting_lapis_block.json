@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 1000,
+  "experience": 30.0,
+  "group": "PURIFIED_LAPIS_BLOCK",
+  "ingredient": {
+    "item": "minecraft:lapis_block"
+  },
+  "result": "voodoo-curses:purified_lapis_block"
+}

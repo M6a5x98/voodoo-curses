@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "item": "voodoo-curses:profaned_redstone_block"
+    }
+  },
+  "pattern": [
+    "R",
+    "C",
+    "N"
+  ],
+  "result": {
+    "item": "voodoo-curses:cursing_pin"
+  },
+  "show_notification": true
+}

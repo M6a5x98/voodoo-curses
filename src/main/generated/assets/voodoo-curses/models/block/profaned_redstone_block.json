@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "voodoo-curses:block/profaned_redstone_block"
+  }
+}

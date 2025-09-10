@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "results": [
+    {
+      "chance": 25,
+      "count": 1,
+      "item": "voodoo-curses:profaned_redstone_block"
+    }
+  ]
+}

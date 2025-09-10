@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:voodoo-curses/root",
+  "criteria": {
+    "got_pin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "voodoo-curses:blessing_pin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.voodoo-curses.path-of-good.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "voodoo-curses:blessing_pin"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.voodoo-curses.path-of-good.name"
+    }
+  },
+  "requirements": [
+    [
+      "got_pin"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

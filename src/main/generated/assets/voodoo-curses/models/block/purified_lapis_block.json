@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "voodoo-curses:block/purified_lapis_block"
+  }
+}
