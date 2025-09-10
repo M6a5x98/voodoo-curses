@@ -3,7 +3,7 @@
 	"id": "voodoo-curses",
 	"version": "${version}",
 	"name": "Voodoo Curses",
-	"description": "This mod adds voodoo dolls allowing players to curse or bless other players",
+	"description": "A mod that adds voodoo dolls allowing players to curse or bless other players",
 	"authors": [
 		"M6a5x98"
 	],
