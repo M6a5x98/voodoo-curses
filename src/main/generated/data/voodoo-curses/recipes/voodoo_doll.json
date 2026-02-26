@@ -11,14 +11,17 @@
     "H": {
       "item": "minecraft:hay_block"
     },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
     "W": {
       "item": "minecraft:wheat"
     }
   },
   "pattern": [
     " F ",
-    "HCH",
-    "W W"
+    "HNH",
+    "WCW"
   ],
   "result": {
     "item": "voodoo-curses:voodoo_doll"

@@ -25,12 +25,14 @@ public class RecipeProvider extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> consumer) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.VOODOO_DOLL)
                 .pattern(" F ")
-                .pattern("HCH")
-                .pattern("W W")
+                .pattern("HNH")
+                .pattern("WCW")
                 .input('F', ItemTags.FLOWERS)
                 .input('H', Items.HAY_BLOCK)
                 .input('C', ItemTags.COALS)
                 .input('W', Items.WHEAT)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
                 .criterion(hasItem(Items.HAY_BLOCK), conditionsFromItem(Items.HAY_BLOCK))
                 .offerTo(consumer);
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CURSING_PIN)
